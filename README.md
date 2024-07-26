@@ -5,8 +5,9 @@ Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installe
 How do I install these manifests?
 ---------------------------------
 
-scoop bucket add bissli [https://github.com/bissli/scoop-bucket](https://github.com/nikhil-vankadia/scoop-bucket.git)
-scoop install scoop-bucket/<app>
+scoop bucket add bissli https://github.com/nikhil-vankadia/scoop-bucket.git
+scoop install scoop-bucket
+
 
 To add this bucket, run `scoop bucket add extras`. To install, do `scoop install <manifest>`.
 
